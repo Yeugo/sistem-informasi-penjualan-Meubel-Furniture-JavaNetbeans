@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package mainclass;
+import forms.frameUtama;
 import penjualan.*;
 /**
  *
@@ -15,7 +16,7 @@ public class main {
      */
     public static void main(String[] args) {
         //Input
-        penjualan data = new penjualan(01, 111, 10, 1500000);
+        /*penjualan data = new penjualan(01, 111, 10, 1500000);
         //Output
         System.out.println("Data Penjualan");
         System.out.println("=========================");
@@ -86,9 +87,9 @@ public class main {
         System.out.println("");
         
         //Input
-        supplyer sup1 = new supplyer(111, "Anto", "Banjarmasin", "081234567890");
-        supplyer sup2 = new supplyer(222, "Andi", "Banjarmasin", "081234567891");
-        supplyer sup3 = new supplyer(333, "Anang", "Banjarmasin", "081234567892");
+        supplier sup1 = new supplier(111, "Anto", "Banjarmasin", "081234567890");
+        supplier sup2 = new supplier(222, "Andi", "Banjarmasin", "081234567891");
+        supplier sup3 = new supplier(333, "Anang", "Banjarmasin", "081234567892");
         //Output
         System.out.println("Data Supplier 1");
         System.out.println("=========================");
@@ -110,6 +111,10 @@ public class main {
         System.out.println("Nama Barang     : " +sup3.getNamaSupplier());
         System.out.println("Alamat          : " +sup3.getAlamat());
         System.out.println("Telepon         : " +sup3.getTelepon());
-        System.out.println("*************************");
+        System.out.println("*************************");*/
+        
+        frameUtama myFrame = new frameUtama();
+        
+        myFrame.setVisible(true);
     }
 }
